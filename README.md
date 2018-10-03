@@ -1,2 +1,3 @@
 # adsalg2
-Algoritmos02 Exemplos de código criados durante as aulas com a turma da 4 etapa de 2018 na unidade Osório.
+Algoritmos02 
+Exemplos de cÃ³digo criados durante as aulas na unidade OsÃ³rio.
