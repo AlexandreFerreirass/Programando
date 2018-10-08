@@ -12,22 +12,41 @@ mais de uma linha
 
 //variaveis
 
-int a;//inteiro
-float b; //flutuante
+int a;    //inteiro
+float b;  //flutuante
 double c; // flutuante (maior precisão, mais casas decimais)
-bool d; //booleano (verdadeiro/falso-->true/falso)
+bool d;   //booleano (verdadeiro/falso-->true/falso)
 
-
+//Ctrl+shift+b compilar sem executar - verificar a sintaxe
 
 int main()
 {
 
 	int e; //variavel local, visivel somente nesta função, a partir dessa linha
 
-	printf("Hello Word!");
+	printf("Hello Word!\n"); //\ caracter de escape, todo comentario que estiver apos a \ não sera printado - "n" comando para pular uma linha - "t" tab 
 
-	system("pause")
 
+	printf("1\t\t2\t\t3\n");
+	printf("1\t\t2\t\t3\n");
+	printf("1\t\t2\t\t3\n");
+
+	printf("\n");
+
+	//como imprimir valores
+	printf("%i\n", 99);
+	printf("%f\n", 100.99);
+
+	//texto (string) e valores juntos
+	printf("Valor %i, total da soma.\n", 98 + 5); //%i valor inteiro 
+
+	printf("%i + %i = %i\n", 500, 600, 500 + 600);
+
+
+		
+		
+	system("pause");
+	
 
 
 
