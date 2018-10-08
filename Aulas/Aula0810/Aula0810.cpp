@@ -22,7 +22,15 @@ bool d; //booleano (verdadeiro/falso-->true/falso)
 int main()
 {
 
-	int e; //variavel local 
+	int e; //variavel local, visivel somente nesta função, a partir dessa linha
+
+	printf("Hello Word!");
+
+	system("pause")
+
+
+
+
 	
     return 0;
 }
