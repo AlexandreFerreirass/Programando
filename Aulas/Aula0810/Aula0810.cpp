@@ -42,6 +42,23 @@ int main()
 
 	printf("%i + %i = %i\n", 500, 600, 500 + 600);
 
+	a = 150;
+	e = 200;
+
+	int f = a + e;
+
+	printf("O resultado da soma é: %i\n", f);
+
+	//leitura SCANF / SCAN_S
+	scanf_s("%i", &f);
+
+	//erros comuns esquecer de identificar o tipo da variavel ou identificar errado
+	printf("\nVoce digitou: %i\n", f);
+
+	printf("\nDigite um valor real: ", b);
+
+	scanf_s("%f", &b);
+
 
 		
 		
