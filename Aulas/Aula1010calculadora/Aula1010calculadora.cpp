@@ -4,7 +4,7 @@
 #include "stdafx.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include<locale.h>
+//#include<locale.h>
 
 
 
@@ -35,7 +35,7 @@ float subtracao(float a, float b)
 
 int main()
 {
-	setlocale(LC_ALL, "portuguese");
+	//setlocale(LC_ALL, "portuguese");
 	float a, b;
 
 	printf_s("Digite o primeiro valor: ");
